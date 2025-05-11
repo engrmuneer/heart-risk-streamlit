@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load the trained model from the pickle file
-model = pickle.load(open('./heart_disease_model.pkl', 'rb'))
+model = pickle.load(open('./heart_disease_model2.pkl', 'rb'))
 
 # Function to preprocess input features
 def preprocess_input(features):
